@@ -1,0 +1,42 @@
+
+.services{
+    margin: 2rem 0 0 0;
+    background-color: var(--secondary-color);
+    padding: 1rem 2rem;
+    display: grid;
+    gap: 3rem;
+}
+
+.services h3{
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--neutral-color);
+    font-weight: 500;
+}
+
+.services ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+ul .service-icon{
+    width: 200px;
+    height: 200px;
+    background-color: var(--neutral-color);
+}
+
+.services ul li{
+    display: grid;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 800px) {
+    .services ul{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

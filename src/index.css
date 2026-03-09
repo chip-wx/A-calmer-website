@@ -1,0 +1,29 @@
+:root{
+  --primary-color: #FF0000;
+  --secondary-color: #161616;
+  --neutral-color: #f3f3f3;
+
+  --font-title: 'Reggae One', sans-serif;
+  --font-text: 'Lato', sans-serif;
+}
+
+body, html{
+  scrollbar-width: none;
+  width: 100%;
+}
+
+
+*, #root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-title);
+}
+
+body {
+  background-color: var(--neutral-color);
+}

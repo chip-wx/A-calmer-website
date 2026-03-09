@@ -1,0 +1,41 @@
+
+.info{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: .3rem;
+}
+
+.info img{
+    width: 45%;
+}
+
+.info .text{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.text h2 {
+    font-size: 2rem;
+}
+
+.text > p{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+
+@media (max-width: 800px) {
+    .info {
+        flex-direction: column-reverse;
+        gap: 0rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info img{
+        display: none;
+    }
+}

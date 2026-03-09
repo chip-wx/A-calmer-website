@@ -1,0 +1,44 @@
+.is-invalid{
+    border: 2px solid red;
+}
+
+.error{
+    color: red;
+    max-width: 200px;
+    margin-top: .25rem;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label{
+
+    font-weight: bold;
+    color: var(--neutral-color);
+}
+
+.form-group input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid red;
+    color: var(--neutral-color);
+}
+
+.form-control{
+    padding: .5rem;
+    border: 1px solid gray;
+    border-radius: .25rem;
+}
+
+.form-group input:-webkit-autofill,
+.form-group input:-webkit-autofill:hover,
+.form-group input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px transparent inset;
+    -webkit-text-fill-color: var(--neutral-color);
+    transition: background-color 5000s ease-in-out 0s;
+}

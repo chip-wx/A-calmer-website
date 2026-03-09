@@ -1,0 +1,38 @@
+export const Selections = [
+        { id: 1, name: 'Selection 1', price: 29.99, image: '/src/assets/prev-product.png' },
+        { id: 2, name: 'Selection 2', price: 39.99, image: '/src/assets/prev-product.png' },
+        { id: 3, name: 'Selection 3', price: 49.99, image: '/src/assets/prev-product.png' },
+]
+
+export const ForYou = [
+    { id: 1, name: 'For You 1', price: 29.99, image: '/src/assets/prev-product.png' },
+    { id: 2, name: 'For You 2', price: 39.99, image: '/src/assets/prev-product.png' },
+    { id: 3, name: 'For You 3', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 4, name: 'For You 4', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 5, name: 'For You 5', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 6, name: 'For You 6', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 7, name: 'For You 7', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 8, name: 'For You 8', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 9, name: 'For You 9', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 10, name: 'For You 10', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 11, name: 'For You 11', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 12, name: 'For You 12', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 13, name: 'For You 13', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 14, name: 'For You 14', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 15, name: 'For You 15', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 16, name: 'For You 16', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 17, name: 'For You 17', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 18, name: 'For You 18', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 19, name: 'For You 19', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 20, name: 'For You 20', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 21, name: 'For You 21', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 22, name: 'For You 22', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 23, name: 'For You 23', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 24, name: 'For You 24', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 25, name: 'For You 25', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 26, name: 'For You 26', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 27, name: 'For You 27', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 28, name: 'For You 28', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 29, name: 'For You 29', price: 49.9, image: '/src/assets/prev-product.png' },
+    { id: 30, name: 'For You 30', price: 49.9, image: '/src/assets/prev-product.png' }
+]

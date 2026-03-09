@@ -1,0 +1,10 @@
+
+footer{
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    font-size: .8rem;
+}
+
+footer p{
+    color: var(--neutral-color);
+}
