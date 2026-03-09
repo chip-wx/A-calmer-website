@@ -4,7 +4,7 @@ export const Info = () => {
 
     return (
         <section className="info">
-            <img src="/src/assets/minimal_tree.png" alt="" />
+            <img src="../../assets/minimal_tree.png" alt="" />
             <div className="text">
                 <h2>A Place to Be Relax</h2>
                 <p>

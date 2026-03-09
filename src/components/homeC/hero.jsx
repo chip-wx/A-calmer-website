@@ -20,7 +20,7 @@ export const Hero = () => {
     return (
         <main className="hero">
             <h1 ref={titleRef} className='title'>A <span className="calmer">Calmer</span> Website</h1>
-            <img src="/src/assets/main.png" alt="" />
+            <img src='../../assets/main.png' alt="" />
         </main>
     )
 }
