@@ -1,10 +1,11 @@
 import './styles/info.css'
+import infoImage from '../../assets/minimal_tree.png'
 
 export const Info = () => {
 
     return (
         <section className="info">
-            <img src="../../assets/minimal_tree.png" alt="" />
+            <img src={infoImage} alt="" />
             <div className="text">
                 <h2>A Place to Be Relax</h2>
                 <p>

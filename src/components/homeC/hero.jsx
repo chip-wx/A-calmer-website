@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import './styles/hero.css';
 import { gsap } from 'gsap';
+import mainImage from '../../assets/main.png';
 
 export const Hero = () => {
     const titleRef = useRef(null);
@@ -20,7 +21,7 @@ export const Hero = () => {
     return (
         <main className="hero">
             <h1 ref={titleRef} className='title'>A <span className="calmer">Calmer</span> Website</h1>
-            <img src='../../assets/main.png' alt="" />
+            <img src={mainImage} alt="" />
         </main>
     )
 }
